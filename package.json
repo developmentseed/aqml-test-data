@@ -1,0 +1,29 @@
+{
+  "name": "aqml-test-data",
+  "version": "0.0.0",
+  "description": "test data for aqml projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developmentseed/aqml-test-data.git"
+  },
+  "keywords": [
+    "aqml"
+  ],
+  "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/developmentseed/aqml-test-data/issues"
+  },
+  "homepage": "https://github.com/developmentseed/aqml-test-data#readme",
+  "dependencies": {
+    "@turf/boolean-point-in-polygon": "^6.0.1",
+    "@turf/helpers": "^6.1.3",
+    "@turf/random": "^6.0.2",
+    "random-points-on-polygon": "0.0.4",
+    "turf-extent": "^1.0.4"
+  }
+}
