@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var generateFakePm25 = require('../lib/generate-fake-pm25')
 
 var boundaries = require('../data/houston-boundaries.json')
